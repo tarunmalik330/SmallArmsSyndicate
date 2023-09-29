@@ -20,8 +20,12 @@
   color: white !important;
   border-radius: 100px !important;
   background: linear-gradient(180deg, #1b1b1b 0%, #090909 100%) !important;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out;
+  transition: 0.3s linear !important;
+}
+.nav-link:hover {
+  color: var(--bs-nav-pills-link-active-color);
+  background: linear-gradient(#fed710, #ff5001) !important;
+  /* border: linear-gradient(#fed710, #ff5001); */
 }
 .gap_28 {
   gap: 28px !important;
@@ -30,19 +34,21 @@
   border-radius: 17.34px;
 }
 .Rarity-card {
-  /* border: 1px solid linear-gradient(to left, #fed710, #ff5001); */
   padding: 27px 25px;
   border-radius: 17.34px !important;
   background: #0d0d0d;
   backdrop-filter: blur(31.478700637817383px) !important;
-  /* border-width: 4px;
-  border-style: solid; */
-  /* border-image: linear-gradient(180deg, #ff5001 0%, #fed710) 1; */
 }
 .bg_lineargradient {
   padding: 2px;
   border-radius: 17.34px !important;
   background: linear-gradient(180deg, #ff5001 0%, #fed710 100%) !important;
+}
+.Rarity-cardimg {
+  transition: 0.3s linear;
+}
+.Rarity-cardimg:hover {
+  transform: scale(1.05);
 }
 .pt_29 {
   padding-top: 29px;
@@ -57,10 +63,13 @@
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  gap: 20px;
+  gap: 24px;
 }
 .pt_91 {
   padding-top: 91px;
+}
+.pt_100 {
+  padding-top: 100px;
 }
 .grid-item1 {
   grid-row: 1/2;
@@ -85,6 +94,54 @@
 .grid-item6 {
   grid-row: 6/7;
   grid-column: 1/2;
+}
+/* --------------------------Royalty Stash Section---------------------- */
+.Royalty_bg {
+  background-image: url("../images/webp/RoyaltyStashBg.webp");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.royality-card {
+  -webkit-backdrop-filter: blur(54.4328px);
+  backdrop-filter: blur(54.4328px);
+  background: linear-gradient(
+    123.9deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0.03) 101.73%
+  );
+  border: 1.09px solid #ff5101;
+  border: 1.09px solid #ff5001;
+  border-radius: 15px;
+  padding: 30px 30px 0;
+  position: relative;
+}
+.lh_174 {
+  line-height: 174%;
+}
+.royalitybox_headig {
+  background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.royality-box-1 {
+  bottom: -11%;
+  position: absolute;
+  width: 100%;
+}
+.royality-box-1 {
+  left: -14%;
+  max-width: 294px;
+}
+.royality-box-2 {
+  bottom: -12%;
+  position: absolute;
+  width: 100%;
+}
+.royality-box-2 {
+  right: -11%;
+  max-width: 347px;
 }
 @media (min-width: 992px) {
   .grid-item1 {
@@ -111,8 +168,11 @@
     grid-row: 2/3;
     grid-column: 3/4;
   }
+  .mw_1027 {
+    max-width: 1027px;
+  }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .grid-item1 {
     grid-row: 1/2;
     grid-column: 1/2;
@@ -136,5 +196,99 @@
   .grid-item6 {
     grid-row: 3/4;
     grid-column: 2/3;
+  }
+}
+@media (max-width: 1200px) {
+  .max_w_1220 {
+    max-width: 1220px !important;
+  }
+  .tabbable .nav_tabs {
+    /* width: 1220px; */
+    overflow: hidden !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    flex-wrap: nowrap !important;
+  }
+  .tabbable .nav_tabs .nav-link {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+  .royality-box-1 {
+    bottom: -15%;
+    position: absolute;
+    width: 100%;
+  }
+  .royality-box-1 {
+    left: -15%;
+    max-width: 244px;
+  }
+  .royality-box-2 {
+    bottom: -12%;
+    position: absolute;
+    width: 100%;
+  }
+  .royality-box-2 {
+    right: -14%;
+    max-width: 276px;
+  }
+}
+@media (max-width: 991.98px) {
+  .royality-box-2 {
+    right: -18%;
+    max-width: 208px;
+  }
+  .royality-box-2 {
+    bottom: -7%;
+    position: absolute;
+    width: 100%;
+  }
+  .royality-box-1 {
+    left: -19%;
+    max-width: 200px;
+  }
+  .royality-box-1 {
+    bottom: -11%;
+    position: absolute;
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .royality-box-2 {
+    bottom: -3%;
+    position: absolute;
+    width: 100%;
+  }
+  .royality-box-2 {
+    right: -11%;
+    max-width: 133px;
+  }
+  .royality-box-1 {
+    bottom: -6%;
+    position: absolute;
+    width: 100%;
+  }
+  .royality-box-1 {
+    left: -11%;
+    max-width: 137px;
+  }
+}
+@media (max-width: 575.98px) {
+  .royality-box-2 {
+    bottom: -3%;
+    position: absolute;
+    width: 100%;
+  }
+  .royality-box-2 {
+    right: -8%;
+    max-width: 108px;
+  }
+  .royality-box-1 {
+    bottom: -4%;
+    position: absolute;
+    width: 100%;
+  }
+  .royality-box-1 {
+    left: -6%;
+    max-width: 100px;
   }
 }
