@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <header class="bg_hero">
-        <nav class="bg-black py-1">
+    <header class="hero_section_height d-flex flex-column">
+        <nav class="bg-black py-1 fix_nav d-flex justify-content-between w-100">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
                     <div>
@@ -25,7 +25,7 @@
                         <span class="line2"></span>
                         <span class="line3"></span>
                     </label>
-                    <ul class="d-flex align-items-center gap_35  navbox m-0 p-0">
+                    <ul class="d-flex align-items-center gap_35 navbox m-0 p-0">
                         <li class="under_line"><a href=""
                                 class="ff_agnostic fs_8sm fw-normal text-white text-capitalize mb-0 text-nowrap">BUY A
                                 SAS</a>
@@ -55,25 +55,44 @@
                 </div>
             </div>
         </nav>
-        <section class="position-relative 
-        ">
-            <img src="./assets/images/webp/pink_dinosor.webp" alt="pink_dinosor"
-                class="position-absolute pink_dinosor w-100">
-            <img src="./assets/images/webp/golden_dinosor.webp" alt="golden_dinosor"
-                class="position-absolute golden_dinosor w-100">
-            <img src="./assets/images/webp/gray_dinosor.webp" alt="gray_dinosor"
-                class="position-absolute gray_dinosor w-100">
-            <img src="./assets/images/webp/yellow_dinosor.webp" alt="yellow_dinosor"
-                class="position-absolute yellow_dinosor w-100">
-            <div class="container padding_top_100">
-                <h1 class="ff_agnostic fw-normal text-white fs_xxl lh_143 text-center mb-0 pt-1">Small Arms Syndicate</h1>
-                <p class="ff_roboto fw-medium fs_2md text-white mx-auto lh_150 text-center max_w_941">Small Arms
-                    Syndicate is a collection of 10,000 unique T-rex Small Arms NFTs— unique digital collectibles minted
-                    on the Wanchain blockchain. Your Small Arms NFT is your ticket to members-only perks and is your
-                    utility token in the S.A.S ecosystem.</p>
+        <section class="position-relative bg_hero flex-grow-1 d-flex flex-column overflow-hidden">
+            <div class="container d-flex flex-column flex-grow-1 pt-5 mt-5">
+                <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 py-5 mb-5">
+                    <h1 class="ff_agnostic fw-normal text-white fs_xxl lh_143 text-center mb-0 pt-1">Small Arms
+                        Syndicate
+                    </h1>
+                    <p class="ff_roboto fw-medium fs_2md text-white mx-auto lh_150 text-center mb-lg-5 px-sm-5 mx-lg-5">
+                        Small Arms
+                        Syndicate is a collection of 10,000 unique T-rex Small Arms NFTs— unique digital collectibles
+                        minted
+                        on the Wanchain blockchain. Your Small Arms NFT is your ticket to members-only perks and is your
+                        utility token in the S.A.S ecosystem.</p>
+                </div>
+                <div class="row dinosaur_animation_box">
+                    <div class="col-md-3 col-6 d-flex flex-column justify-content-end pink_dinosor">
+                        <img src="./assets/images/webp/pink_dinosor.webp" alt="pink_dinosor" class="w-100">
+                    </div>
+                    <div class="col-md-3 col-6 d-flex flex-column justify-content-end golden_dinosor">
+                        <img src="./assets/images/webp/golden_dinosor.webp" alt="golden_dinosor" class="w-100">
+                    </div>
+                    <div class="col-3 d-none d-md-flex flex-column justify-content-end gray_dinosor">
+                        <img src="./assets/images/webp/gray_dinosor.webp" alt="gray_dinosor" class="w-100">
+                    </div>
+                    <div class="col-3 d-none d-md-flex flex-column justify-content-end yellow_dinosor">
+                        <img src="./assets/images/webp/yellow_dinosor.webp" alt="yellow_dinosor" class="w-100">
+                    </div>
+                </div>
             </div>
         </section>
     </header>
+    <section class="mt-lg-5 pt-5">
+        <div class="container py-5">
+            <div class="row justify-content-lg-between justify-content-center py-sm-5">
+                <div class="col-lg-5 col-md-5 col-sm-9 col-12"></div>
+                <div class="col-lg-6 col-12 d-flex flex-column justify-content-center"></div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
