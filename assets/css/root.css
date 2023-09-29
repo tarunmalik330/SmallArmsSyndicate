@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  /* font-size */
+  --fs-sm: 16px;
+  --fs-2sm: 18px;
+  --fs-md: 20px;
+  --fs-2md: 22px;
+  --fs-3md: 25px;
+  --fs-4md: 28.977px;
+  --fs-lg: 30px;
+  --fs-2lg: 35px;
+  --fs-3lg: 39px;
+  --fs-xl: 49px;
+  --fs-xxl: 70px;
+  /* font-weight */
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+}
+/* font-size */
+.fs_6sm {
+  font-size: var(--fs-sm);
+}
+.fs_8sm {
+  font-size: var(--fs-2sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_2md {
+  font-size: var(--fs-2md);
+}
+.fs_5md {
+  font-size: var(--fs-3md);
+}
+.fs_8md {
+  font-size: var(--fs-4md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_5lg {
+  font-size: var(--fs-2lg);
+}
+.fs_9lg {
+  font-size: var(--fs-3lg);
+}
+.fs_9xl {
+  font-size: var(--fs-xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+/* font-weight */
+.fw_400 {
+  font-weight: var(--fw-400);
+}
+.fw_500 {
+  font-weight: var(--fw-500);
+}
+.fw_600 {
+  font-weight: var(--fw-600);
+}
+/* font-family */
+.ff-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.ff-roboto {
+  font-family: "Roboto", sans-serif;
+}
+@font-face {
+  font-family: "agnostic";
+  src: url("../font-family/agnostic-font/Agnostic.otf");
+}
+.ff-agnostic {
+  font-family: "agnostic";
+}
