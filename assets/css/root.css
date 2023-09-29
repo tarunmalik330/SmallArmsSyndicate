@@ -62,16 +62,16 @@
   font-weight: var(--fw-600);
 }
 /* font-family */
-.ff-poppins {
+.ff_poppins {
   font-family: "Poppins", sans-serif;
 }
-.ff-roboto {
+.ff_roboto {
   font-family: "Roboto", sans-serif;
 }
 @font-face {
   font-family: "agnostic";
   src: url("../font-family/agnostic-font/Agnostic.otf");
 }
-.ff-agnostic {
+.ff_agnostic {
   font-family: "agnostic";
 }
