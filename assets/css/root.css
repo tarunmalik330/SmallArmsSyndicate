@@ -67,3 +67,19 @@
 .ff_agnostic {
   font-family: "agnostic";
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  :root {
+    /* font-size */
+    --fs-sm: 16px;
+    --fs-2sm: 18px;
+    --fs-md: 18px !important;
+    --fs-2md: 22px;
+    --fs-3md: 25px;
+    --fs-4md: 28.977px;
+    --fs-lg: 24px !important;
+    --fs-2lg: 35px;
+    --fs-3lg: 39px;
+    --fs-xl: 49px;
+    --fs-xxl: 70px;
+  }
+}
