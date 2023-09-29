@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none !important;
+    text-decoration: none !important;
+  }
+@media (max-width: 1200px) {
+    label[for="menuIcon"] {
+      width: 30px;
+      height: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+    }
+    .line1,
+    .line2,
+    .line3 {
+      width: 100%;
+      height: 5px;
+      background-color:white;
+      border-radius: 2px;
+      align-items: center;
+      transition: all .2s linear;
+    }
+    .cross_icon .line1{
+      transform: rotate(50deg) translate(10px, 12px);
+      transition: all .2s linear;
+    }
+    .cross_icon .line2{
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    .cross_icon .line3{
+      transform: rotate(-50deg) translateY(-50%);
+      transition: all .2s linear;
+    }
+  
+    .navbox {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background-color:grey;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      transition: all 200ms linear;
+      z-index: 1;
+    }
+  
+    .left-0 {
+      left: 0;
+    }
+    .max_w_500 {
+      max-width: unset;
+    }
+    .max_w_741 {
+      max-width: unset;
+    }
+    .signatuer3 {
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+    }
+  }
