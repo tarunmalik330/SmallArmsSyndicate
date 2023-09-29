@@ -47,6 +47,12 @@
 .fs_xxl {
   font-size: var(--fs-xxl);
 }
+/* colors */
+.text_leneargradint {
+  background: linear-gradient(to right, #ff5001, #fed710);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 /* font-family */
 .ff_poppins {
   font-family: "Poppins", sans-serif;
