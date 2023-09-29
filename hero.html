@@ -1,39 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
-    <header>
-        <nav class="pt-lg-4 pt-md-3 pt-2">
+    <header class="bg_hero">
+        <nav class="bg-black py-1">
             <div class="container">
-                <div class="d-flex align-items-center justify-content-between pt-20 pb-20">
-                    <ul>
-                        <li><a href=""><img src="./assets/images/svg/logo.svg" alt="logo" class="mt-0"></a></li>
-                    </ul>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                        <a href="#"><img src="./assets/images/webp/logo.webp" alt="logo" class="w-100"></a>
+                    </div>
                     <label for="menuIcon" id="label" onclick="showNav()">
                         <span class="line1"></span>
                         <span class="line2"></span>
                         <span class="line3"></span>
                     </label>
-                    <ul class="d-flex align-items-center gap-xl-5 gap-4 navbox">
-                        <li class="under_line"><a href="#" class="gilroyMedium fw-medium fs-md text-white">Home</a></li>
-                        <li class="under_line"><a href="#About"
-                                class="gilroyMedium fw-medium fs-md text-white">About</a>
+                    <ul class="d-flex align-items-center gap_35  navbox m-0 p-0">
+                        <li class="under_line"><a href=""
+                                class="ff_agnostic fs_8sm fw-normal text-white text-capitalize mb-0 text-nowrap">BUY A
+                                SAS</a>
                         </li>
-                        <li class="under_line"><a href="#products"
-                                class="gilroyMedium fw-medium fs-md text-white">Products</a>
+                        <li class="under_line"><a href=""
+                                class="ff_agnostic fs_8sm fw-normal text-white text-capitalize mb-0 text-nowrap">RoadMap</a>
                         </li>
-                        <li class="under_line"><a href="#Contact"
-                                class="gilroyMedium fw-medium fs-md text-white">Contact
-                                Us</a>
+                        <li class="under_line"><a href=""
+                                class="ff_agnostic fs_8sm fw-normal text-white text-capitalize mb-0 text-nowrap">team</a>
                         </li>
+                        <li class="under_line"><a href=""
+                                class="ff_agnostic fs_8sm fw-normal text-white text-capitalize mb-0 text-nowrap">Rarity</a>
+                        </li>
+                        <li class="under_line"><a href=""
+                                class="ff_agnostic fs_8sm fw-normal text-white text-capitalize mb-0 text-nowrap">Stash</a>
+                        </li>
+                        <li class="under_line"><a href=""
+                                class="ff_agnostic fs_8sm fw-normal text-white text-capitalize mb-0 text-nowrap">Syndicate
+                                Game</a>
+                        </li>
+                        <li class="ps-xxl-3"><a href=""
+                                class="connect_btn ff_agnostic fs_md fw-normal text-white text-capitalize ms-xxl-4 text-nowrap">connect
+                                wallet</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
+        <section class="position-relative 
+        ">
+            <img src="./assets/images/webp/pink_dinosor.webp" alt="pink_dinosor"
+                class="position-absolute pink_dinosor w-100">
+            <img src="./assets/images/webp/golden_dinosor.webp" alt="golden_dinosor"
+                class="position-absolute golden_dinosor w-100">
+            <img src="./assets/images/webp/gray_dinosor.webp" alt="gray_dinosor"
+                class="position-absolute gray_dinosor w-100">
+            <img src="./assets/images/webp/yellow_dinosor.webp" alt="yellow_dinosor"
+                class="position-absolute yellow_dinosor w-100">
+            <div class="container padding_top_100">
+                <h1 class="ff_agnostic fw-normal text-white fs_xxl lh_143 text-center mb-0 pt-1">Small Arms Syndicate</h1>
+                <p class="ff_roboto fw-medium fs_2md text-white mx-auto lh_150 text-center max_w_941">Small Arms
+                    Syndicate is a collection of 10,000 unique T-rex Small Arms NFTs— unique digital collectibles minted
+                    on the Wanchain blockchain. Your Small Arms NFT is your ticket to members-only perks and is your
+                    utility token in the S.A.S ecosystem.</p>
+            </div>
+        </section>
     </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
+
 </html>
