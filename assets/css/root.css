@@ -12,10 +12,6 @@
   --fs-3lg: 39px;
   --fs-xl: 49px;
   --fs-xxl: 70px;
-  /* font-weight */
-  --fw-400: 400;
-  --fw-500: 500;
-  --fw-600: 600;
 }
 /* font-size */
 .fs_6sm {
@@ -50,16 +46,6 @@
 }
 .fs_xxl {
   font-size: var(--fs-xxl);
-}
-/* font-weight */
-.fw_400 {
-  font-weight: var(--fw-400);
-}
-.fw_500 {
-  font-weight: var(--fw-500);
-}
-.fw_600 {
-  font-weight: var(--fw-600);
 }
 /* font-family */
 .ff_poppins {

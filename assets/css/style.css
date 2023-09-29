@@ -6,3 +6,23 @@
   list-style: none !important;
   text-decoration: none !important;
 }
+/* ------------------------Rarity-section---------------------- */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background: linear-gradient(#fed710, #ff5001) !important;
+  border-radius: 50px;
+}
+.nav-link {
+  padding: 12px 25px !important;
+  font-size: var(--fs-md) !important;
+  font-weight: 400 !important;
+  color: white !important;
+  border-radius: 100px !important;
+  background: linear-gradient(180deg, #1b1b1b 0%, #090909 100%) !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.gap_28 {
+  gap: 28px !important;
+}
