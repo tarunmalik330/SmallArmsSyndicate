@@ -5,21 +5,55 @@
   list-style: none !important;
   text-decoration: none !important;
 }
-/* -------------------common----------------- */
+/* ----------------------------------------color-------------------------------- */
+.text_yellow_orange {
+  background: linear-gradient(to bottom, #fed710 0%, #ff5001 50%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+}
+.text_gradient {
+  background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text_gradient_2{
+  background: linear-gradient(180deg, #FED710 2.08%, #FF5001 7.81%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.text_gradient_3{
+  background: linear-gradient(180deg, #FED710 2.08%, #FF5001 26.04%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* ------------------------------------common----------------------------- */
 .lh_143 {
   line-height: 143%;
 }
 .lh_150 {
   line-height: 150%;
 }
-/* ------------------------navbar------------------------- */
+.lh_116 {
+  line-height: 116%;
+}
+.lh_174 {
+  line-height: 174%;
+}
+.lh_normal {
+  line-height: normal;
+}
+/* -------------------------------------navbar------------------------------------ */
 .bg_hero {
   background-image: url(../images/webp/bg_hero.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
 }
-.fix_nav{
+.fix_nav {
   position: fixed;
   top: 0;
   background: black;
@@ -57,6 +91,21 @@
 
 .under_line {
   position: relative;
+}
+/* -------------------------roadmap-section----------------- */
+.bullet_circle{
+ padding: 0;
+  list-style: none;
+}
+.bullet_circle li {
+  padding-left: 12px; 
+  text-indent: -.7em;
+}
+.bullet_circle li::before{
+  content: "• ";
+  color: white;
+  padding-right: 6px;
+  
 }
 @media (max-width: 1600px) {
   .hero_section_height {
@@ -114,7 +163,6 @@
   .right-0 {
     right: 0;
   }
-  
 }
 @media (min-width: 375px) {
 }
@@ -123,30 +171,26 @@
 @media (min-width: 576px) {
 }
 @media (min-width: 768px) {
-  
 }
 @media (min-width: 992px) {
 }
 @media (min-width: 1024px) {
-  
 }
 @media (min-width: 1200px) {
-
 }
 @media (min-width: 1440px) {
- 
 }
 @media (min-width: 1600px) {
   .pink_dinosor img {
     min-width: 326px;
   }
-  .golden_dinosor img{
+  .golden_dinosor img {
     min-width: 326px;
   }
-  .gray_dinosor{
+  .gray_dinosor {
     min-width: 326px;
   }
-  .yellow_dinosor{
+  .yellow_dinosor {
     min-width: 326px;
   }
 }
