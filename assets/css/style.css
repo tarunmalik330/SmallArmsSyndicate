@@ -1,4 +1,5 @@
 @import url(./root.css);
+
 * {
   padding: 0;
   margin: 0;
@@ -6,13 +7,15 @@
   list-style: none !important;
   text-decoration: none !important;
 }
+
 /* ------------------------Rarity-section---------------------- */
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
   color: var(--bs-nav-pills-link-active-color);
   background: linear-gradient(#fed710, #ff5001) !important;
   border-radius: 50px;
 }
+
 .nav-link {
   padding: 12px 25px !important;
   font-size: var(--fs-md) !important;
@@ -22,26 +25,39 @@
   background: linear-gradient(180deg, #1b1b1b 0%, #090909 100%) !important;
   transition: 0.3s linear !important;
 }
+
 .nav-link:hover {
   color: var(--bs-nav-pills-link-active-color);
   background: linear-gradient(#fed710, #ff5001) !important;
   /* border: linear-gradient(#fed710, #ff5001); */
 }
+
 .gap_28 {
   gap: 28px !important;
 }
+
 .border_17 {
   border-radius: 17.34px;
 }
+
 .Rarity-card {
   padding: 27px 25px;
+  border-radius: 17.34px;
+  box-shadow: 0 0 30px 3px #ff560241;
 }
+
+/* .Rarity-card:hover {
+  box-shadow: 0 0 30px 3px #ff5602b4;
+} */
+
 .Rarity-cardimg {
   transition: 0.3s linear;
 }
+
 .Rarity-card:hover .Rarity-cardimg {
   transform: scale(1.05);
 }
+
 .my_box {
   max-width: 422px;
   width: 100%;
@@ -52,72 +68,87 @@
 
 .my_box {
   border-radius: 20px;
-  background: linear-gradient(
-    124deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0.03) 101.73%
-  );
+  background: linear-gradient(124deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.03) 101.73%);
   backdrop-filter: blur(31.478700637817383px);
   position: relative;
   padding: 1.259px;
 }
+
+/* .grid-box>div:hover {
+  background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
+  backdrop-filter: blur(31.478700637817383px);
+} */
 
 .my_box::after {
   content: "";
   position: absolute;
   border-radius: inherit;
   padding: inherit;
-  background: linear-gradient(180deg, #ff5001 0%, #fed710 100%);
   inset: 0;
+  padding: inherit;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   pointer-events: none;
+  background: linear-gradient(180deg, #ff5001 0%, #fed710 100%);
 }
+
 /* .box_shadow {
   filter: drop-shadow(0px 5px 8px #ff5001);
 } */
 .pt_29 {
   padding-top: 29px;
 }
+
 .button {
   padding: 12px 32px;
   background: linear-gradient(#fed710, #ff5001) !important;
   border-radius: 50px;
   color: white;
 }
+
 .grid-box {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
   gap: 24px;
 }
+
 .pt_100 {
   padding-top: 100px;
 }
+
 .grid-item1 {
   grid-row: 1/2;
   grid-column: 1/2;
 }
+
 .grid-item2 {
   grid-row: 2/3;
   grid-column: 1/2;
 }
+
 .grid-item3 {
   grid-row: 3/4;
   grid-column: 1/2;
 }
+
 .grid-item4 {
   grid-row: 4/5;
   grid-column: 1/2;
 }
+
 .grid-item5 {
   grid-row: 5/6;
   grid-column: 1/2;
 }
+
 .grid-item6 {
   grid-row: 6/7;
   grid-column: 1/2;
 }
+
 /* --------------------------Royalty Stash Section---------------------- */
 .Royalty_bg {
   background-image: url("../images/webp/RoyaltyStashBg.webp");
@@ -125,29 +156,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .royality-card {
   -webkit-backdrop-filter: blur(54.4328px);
   backdrop-filter: blur(54.4328px);
-  background: linear-gradient(
-    123.9deg,
-    hsla(0, 0%, 100%, 0.1),
-    hsla(0, 0%, 100%, 0.03) 101.73%
-  );
+  background: linear-gradient(123.9deg,
+      hsla(0, 0%, 100%, 0.1),
+      hsla(0, 0%, 100%, 0.03) 101.73%);
   border: 1.09px solid #ff5101;
   border: 1.09px solid #ff5001;
   border-radius: 15px;
   padding: 30px 30px 0;
   position: relative;
 }
+
 .lh_174 {
   line-height: 174%;
 }
+
 .royalitybox_headig {
   background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .royality-box-1 {
   bottom: -11%;
   position: absolute;
@@ -155,6 +188,7 @@
   left: -14%;
   max-width: 294px;
 }
+
 .royality-box-2 {
   bottom: -12%;
   position: absolute;
@@ -162,6 +196,7 @@
   right: -11%;
   max-width: 347px;
 }
+
 /* --------------------------Syndicate Game Section---------------------- */
 .img_box {
   max-width: 650px;
@@ -169,17 +204,17 @@
   color: black;
   /* margin: 24px auto; */
 }
+
 .img_box {
   border-radius: 17.34px;
-  background: linear-gradient(
-    124deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0.03) 101.73%
-  );
+  background: linear-gradient(124deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.03) 101.73%);
   backdrop-filter: blur(31.478700637817383px);
   position: relative;
   padding: 1.259px;
 }
+
 .img_box::after {
   content: "";
   position: absolute;
@@ -191,9 +226,12 @@
   -webkit-mask-composite: xor;
   pointer-events: none;
 }
+
 .img_box_padding {
   padding: 34px 37px;
+  box-shadow: 0 0 30px 3px #ff560241;
 }
+
 .orange_circle {
   width: 140px;
   height: 140px;
@@ -203,18 +241,21 @@
   bottom: -8%;
   left: -8%;
 }
+
 .red_circle {
   width: 100px;
   height: 100px;
   background: #ff5001;
   border-radius: 50%;
 }
+
 .yellow_circle {
   width: 75px;
   height: 75px;
   border-radius: 50%;
   background: #fed710;
 }
+
 .btn-cross {
   position: absolute;
   height: 45px;
@@ -223,15 +264,19 @@
   border-radius: 50%;
   border: none;
 }
+
 .h-500 {
   height: 500px !important;
 }
+
 .right-3 {
   right: -3%;
 }
+
 .top-6 {
   top: -6%;
 }
+
 .btn-cross {
   position: absolute;
   height: 45px;
@@ -240,6 +285,7 @@
   border-radius: 50%;
   border: none;
 }
+
 .modal-content {
   position: relative;
   display: flex;
@@ -253,118 +299,150 @@
   border-radius: var(--bs-modal-border-radius);
   outline: 0;
 }
+
 .modal-backdrop.show {
   opacity: 0 !important;
 }
+
 .btn-close {
   --bs-btn-close-focus-shadow: none !important;
 }
+
 .modal-dialog {
   max-width: 1320px !important;
   padding: 30px !important;
 }
+
 .modal-content {
   padding: 30px !important;
   max-height: 400px;
 }
+
 .cursur_event {
   cursor: pointer !important;
 }
+
 .nav_icon {
   transition: 0.3s linear;
 }
+
 .nav_icon:hover {
   transform: translateY(-7px) !important;
   filter: drop-shadow(0px 5px 8px #ff5001);
 }
+
 .circleLeft1 {
   bottom: -1%;
 }
+
 .circleLeft2 {
   top: 29%;
 }
+
 .opacity_01 {
   opacity: 0.1;
 }
+
 .linearCircle {
   width: 334px;
   height: 334px;
-  /* transform: rotate(-69.584deg); */
   flex-shrink: 0;
   border-radius: 334px;
   background: #781d00;
   filter: blur(250px);
 }
+
+.linearCircle1 {
+  top: 26% !important;
+}
+
 @media (min-width: 992px) {
   .grid-item1 {
     grid-row: 1/2;
     grid-column: 1/2;
   }
+
   .grid-item2 {
     grid-row: 1/2;
     grid-column: 2/3;
   }
+
   .grid-item3 {
     grid-row: 1/2;
     grid-column: 3/4;
   }
+
   .grid-item4 {
     grid-row: 2/3;
     grid-column: 1/2;
   }
+
   .grid-item5 {
     grid-row: 2/3;
     grid-column: 2/3;
   }
+
   .grid-item6 {
     grid-row: 2/3;
     grid-column: 3/4;
   }
+
   .mw_1027 {
     max-width: 1027px;
   }
+
   .mw_539 {
     max-width: 539px;
   }
+
   .pt_91 {
     padding-top: 91px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 992px) {
   .grid-item1 {
     grid-row: 1/2;
     grid-column: 1/2;
   }
+
   .grid-item2 {
     grid-row: 1/2;
     grid-column: 2/3;
   }
+
   .grid-item3 {
     grid-row: 2/3;
     grid-column: 1/2;
   }
+
   .grid-item4 {
     grid-row: 2/3;
     grid-column: 2/3;
   }
+
   .grid-item5 {
     grid-row: 3/4;
     grid-column: 1/2;
   }
+
   .grid-item6 {
     grid-row: 3/4;
     grid-column: 2/3;
   }
 }
+
 @media (min-width: 1200px) {
   .mw_284 {
     min-width: 284px !important;
   }
 }
+
 @media (max-width: 1200px) {
   .max_w_1220 {
     max-width: 1220px !important;
   }
+
   .tabbable .nav_tabs {
     /* width: 1220px; */
     overflow: hidden !important;
@@ -372,11 +450,13 @@
     overflow-y: hidden !important;
     flex-wrap: nowrap !important;
   }
+
   .tabbable .nav_tabs .nav-link {
     margin-bottom: 10px;
     white-space: nowrap !important;
     overflow: hidden !important;
   }
+
   .royality-box-1 {
     bottom: -15%;
     position: absolute;
@@ -384,6 +464,7 @@
     left: -15%;
     max-width: 244px;
   }
+
   .royality-box-2 {
     bottom: -12%;
     position: absolute;
@@ -392,6 +473,7 @@
     max-width: 276px;
   }
 }
+
 @media (max-width: 991.98px) {
   .royality-box-2 {
     bottom: -7%;
@@ -400,6 +482,7 @@
     right: -18%;
     max-width: 208px;
   }
+
   .royality-box-1 {
     bottom: -11%;
     position: absolute;
@@ -408,6 +491,7 @@
     max-width: 200px;
   }
 }
+
 @media (max-width: 767.98px) {
   .royality-box-2 {
     bottom: -3%;
@@ -416,6 +500,7 @@
     right: -11%;
     max-width: 133px;
   }
+
   .royality-box-1 {
     bottom: -6%;
     position: absolute;
@@ -424,6 +509,7 @@
     max-width: 137px;
   }
 }
+
 @media (max-width: 575.98px) {
   .royality-box-2 {
     bottom: -6%;
@@ -432,6 +518,7 @@
     right: -12%;
     max-width: 108px;
   }
+
   .royality-box-1 {
     bottom: -8%;
     position: absolute;
@@ -439,15 +526,18 @@
     left: -10%;
     max-width: 100px;
   }
+
   .mw_98 {
     max-width: 98px;
   }
 }
+
 @media (min-width: 375px) {
   .royalty_img {
     min-width: 77px;
   }
 }
+
 @media (min-width: 576px) and (max-width: 992px) {
   .mw_200 {
     max-width: 200px !important;
