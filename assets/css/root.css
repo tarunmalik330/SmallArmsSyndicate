@@ -53,6 +53,9 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+.text_grey {
+  color: #b2b2b2;
+}
 /* font-family */
 .ff_poppins {
   font-family: "Poppins", sans-serif;
@@ -86,7 +89,7 @@
 @media (max-width: 576px) {
   :root {
     /* font-size */
-    --fs-sm: 16px;
+    --fs-sm: 14px;
     --fs-2sm: 18px;
     --fs-md: 20px;
     --fs-2md: 22px;
@@ -95,7 +98,7 @@
     --fs-lg: 30px;
     --fs-2lg: 35px;
     --fs-3lg: 39px;
-    --fs-xl: 40px;
+    --fs-xl: 30px;
     --fs-xxl: 70px;
   }
 }
