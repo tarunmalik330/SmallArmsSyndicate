@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="./assets/css/app.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="bg-black">
@@ -116,14 +122,14 @@
         </div>
     </section>
     <!-- -------------------------roadmap-section----------------------------------- -->
-    <section>
+    <section class="pb-5">
         <div class="container py-5">
             <div class="mt-xl-5 pt-xl-2">
                 <h2
                     class="ff_agnostic fs_9xl fw-normal text-white text-capitalize mt-4 mb-xl-5 pb-4 text-xl-start text-center">
                     RoadMap</h2>
-                <div class="row justify-content-xl-start justify-content-lg-between justify-content-center mt-3">
-                    <div class="col-lg-5 col-md-7 col-8">
+                <div class="row justify-content-xl-start justify-content-lg-between mt-3">
+                    <div class="col-lg-5 col-md-7 col-sm-9 col-11">
                         <h4 class="ff_agnostic fw-normal fs_5lg text-capitalize text_gradient lh_normal">Phase 1</h4>
                         <ul class="bullet_circle">
                             <li class="ff_poppins fw-normal fs_8sm text-white text-capitalize lh_174">Project Concept
@@ -140,8 +146,9 @@
                                 holders SAS NFT Airdrops</li>
                         </ul>
                     </div>
-                    <div class="col-lg-6 col-md-7 col-10 d-flex flex-column align-items-xl-start">
-                        <h4 class="ff_agnostic fw-normal fs_5lg text-capitalize text_gradient lh_normal">Phase 2</h4>
+                    <div class="col-lg-6 col-md-7 col-sm-10 col-11 d-flex flex-column align-items-xl-start">
+                        <h4 class="ff_agnostic fw-normal fs_5lg text-capitalize text_gradient lh_normal pt-lg-0 pt-2">
+                            Phase 2</h4>
                         <ul class="bullet_circle">
                             <li class="ff_poppins fw-normal fs_8sm text-white text-capitalize lh_174">NFT minting on
                                 OpenZoo</li>
@@ -156,14 +163,37 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row mt-xl-5 pt-3">
-                    <div class="col-xl-7 col-lg-9 col-12">
-                        <h4 class="ff_agnostic fw-normal fs_5lg text-capitalize lh_normal text_gradient">Phase 3 (Funding Plans)</h4>
-                        <p class="ff_poppins fw-normal fs_8sm lh_174 text-white text-capitalize mb-3 pb-1">Phase 3 will be activated as we find new homes for our Small Arms Syndicate NFTs</p>
-                        <p><span>0%</span> - We’re broke</p>
+                <div class="row mt-xl-5 mt-2 pt-xl-0 pt-3 justify-content-xl-between justify-content-c enter">
+                    <div class="col-xl-7 col-11">
+                        <h4 class="ff_agnostic fw-normal fs_5lg text-capitalize lh_normal text_gradient">Phase 3
+                            (Funding Plans)</h4>
+                        <p class="ff_poppins fw-normal fs_8sm lh_174 text-white text-capitalize mb-3 pb-1">Phase 3 will
+                            be activated as we find new homes for our Small Arms Syndicate NFTs</p>
+                        <ul class="p-0 m-0">
+                            <li class="ff_poppins fw-normal fs_8sm text-white lh_174"><span
+                                    class="fs_md fw-semibold text_gradient_3">0%</span> - We’re broke</li>
+                            <li class="ff_poppins fw-normal fs_8sm text-white lh_174"><span
+                                    class="fs_md fw-semibold text_gradient_3">10%</span> - We’re no longer broke</li>
+                            <li class="ff_poppins fw-normal fs_8sm text-white lh_174"><span
+                                    class="fs_md fw-semibold text_gradient_2">20%</span> - We will begin using funds to
+                                ramp up marketing the SAS community. (The stashed 2% royalty for SAS holders is not part
+                                of these funds)</li>
+                            <li class="ff_poppins fw-normal fs_8sm text-white lh_174"><span
+                                    class="fs_md fw-semibold text_gradient_3">40%</span> - We begin production for Small
+                                Arms Syndicate music video for project promotion.</li>
+                            <li class="ff_poppins fw-normal fs_8sm text-white lh_174"><span
+                                    class="fs_md fw-semibold text_gradient_3">60%</span> - Token Development and Airdrop
+                                to Small Arms Syndicate NFT holders will begin.</li>
+                            <li class="ff_poppins fw-normal fs_8sm text-white lh_174"><span
+                                    class="fs_md fw-semibold text_gradient_3">80%</span> - We begin development of Small
+                                Arms Syndicate third person shooter play2Earn video game.</li>
+                            <li class="ff_poppins fw-normal fs_8sm text-white lh_174"><span
+                                    class="fs_md fw-semibold text_gradient_3">100%</span> - TBA - Stay tuned!</li>
+                        </ul>
                     </div>
-                    <div class="col-xl-5 col-lg-9 col-12">
-
+                    <div class="col-xl-5 col-lg-7 col-md-9 col-8 col-12 mt-md-0 mt-3">
+                        <img src="./assets/images/webp/dinosaur_with_nose_ring.webp" alt="dinosaur_with_nose_ring"
+                            class="margin_left_90 w-100 max_w_514">
                     </div>
                 </div>
             </div>
@@ -171,9 +201,41 @@
 
         </div>
     </section>
+    <!-- ------------------------------------team---------------------------------------------- -->
+    <section class="bg_team my-5">
+        <div class="container py-5">
+            <h3 class="ff_agnostic fw-normal fs_9xl text-white text-capitalize lh_normal my-xl-5 py-5 text-center">Team
+            </h3>
+            <div class="team_slider mb-5">
+                <div class="px-3">
+                    <div class="team_card">
+                        <img src="./assets/images/webp/team_1.webp" alt="team_1" class="border_radius_18 w-100">
+                    </div>
+                </div>
+                <div class="px-3">
+                    <div class="team_card">
+                        <img src="./assets/images/webp/team_2.webp" alt="team_2" class="border_radius_18 w-100">
+                    </div>
+                </div>
+                <div class="px-3">
+                    <div class="team_card">
+                        <img src="./assets/images/webp/team_3.webp" alt="team_3" class="border_radius_18 w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
     <script src="./assets/js/app.js"></script>
 </body>
 

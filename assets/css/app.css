@@ -18,14 +18,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.text_gradient_2{
-  background: linear-gradient(180deg, #FED710 2.08%, #FF5001 7.81%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.text_gradient_2 {
+  background: linear-gradient(180deg, #fed710 2.08%, #ff5001 7.81%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.text_gradient_3{
-  background: linear-gradient(180deg, #FED710 2.08%, #FF5001 26.04%);
+.text_gradient_3 {
+  background: linear-gradient(180deg, #fed710 2.08%, #ff5001 26.04%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -93,19 +93,35 @@ background-clip: text;
   position: relative;
 }
 /* -------------------------roadmap-section----------------- */
-.bullet_circle{
- padding: 0;
+.bullet_circle {
+  padding: 0;
   list-style: none;
 }
 .bullet_circle li {
-  padding-left: 12px; 
-  text-indent: -.7em;
+  padding-left: 12px;
+  text-indent: -0.7em;
 }
-.bullet_circle li::before{
+.bullet_circle li::before {
   content: "• ";
   color: white;
   padding-right: 6px;
-  
+}
+.max_w_514 {
+  max-width: 514px;
+}
+/* -------------------------------team----------------------------- */
+.bg_team {
+  background-image: url(../images/webp/bg_team.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.team_card {
+  border-radius: 18px;
+  border: 1.263px solid #ff5001;
+}
+.border_radius_18 {
+  border-radius: 18px;
 }
 @media (max-width: 1600px) {
   .hero_section_height {
@@ -170,15 +186,27 @@ background-clip: text;
 }
 @media (min-width: 576px) {
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 }
-@media (min-width: 992px) {
+@media (min-width: 991.98px) {
 }
 @media (min-width: 1024px) {
 }
 @media (min-width: 1200px) {
 }
 @media (min-width: 1440px) {
+  .pink_dinosor img {
+    min-width: 326px;
+  }
+  .golden_dinosor img {
+    min-width: 326px;
+  }
+  .gray_dinosor {
+    min-width: 326px;
+  }
+  .yellow_dinosor {
+    min-width: 326px;
+  }
 }
 @media (min-width: 1600px) {
   .pink_dinosor img {
@@ -192,5 +220,8 @@ background-clip: text;
   }
   .yellow_dinosor {
     min-width: 326px;
+  }
+  .margin_left_90 {
+    margin-left: 90px;
   }
 }
