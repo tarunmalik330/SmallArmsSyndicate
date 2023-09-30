@@ -83,3 +83,19 @@
     --fs-xxl: 70px;
   }
 }
+@media (max-width: 576px) {
+  :root {
+    /* font-size */
+    --fs-sm: 16px;
+    --fs-2sm: 18px;
+    --fs-md: 20px;
+    --fs-2md: 22px;
+    --fs-3md: 15px;
+    --fs-4md: 28.977px;
+    --fs-lg: 30px;
+    --fs-2lg: 35px;
+    --fs-3lg: 39px;
+    --fs-xl: 40px;
+    --fs-xxl: 70px;
+  }
+}
