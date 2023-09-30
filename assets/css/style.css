@@ -217,6 +217,58 @@
   border-radius: 50%;
   background: #fed710;
 }
+.btn-cross {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background: var(--text-white);
+  border-radius: 50%;
+  border: none;
+}
+.h-500 {
+  height: 500px !important;
+}
+.right-3 {
+  right: -3%;
+}
+.top-6 {
+  top: -6%;
+}
+.btn-cross {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background: linear-gradient(180deg, #ff5001 0%, #fed710 100%);
+  border-radius: 50%;
+  border: none;
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--bs-modal-color);
+  pointer-events: auto;
+  background: linear-gradient(180deg, #ff5001 0%, #fed710 100%) !important;
+  background-clip: padding-box;
+  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+  border-radius: var(--bs-modal-border-radius);
+  outline: 0;
+}
+.modal-backdrop.show {
+  opacity: 0 !important;
+}
+.btn-close {
+  --bs-btn-close-focus-shadow: none !important;
+}
+.modal-dialog {
+  max-width: 1320px !important;
+  padding: 30px !important;
+}
+.modal-content {
+  padding: 30px !important;
+  max-height: 400px;
+}
 @media (min-width: 992px) {
   .grid-item1 {
     grid-row: 1/2;
