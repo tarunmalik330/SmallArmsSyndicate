@@ -149,30 +149,7 @@
 .under_line {
   position: relative;
 }
-img.vert_move {
-  -webkit-animation: mover 1s infinite alternate;
-  animation: mover 1s infinite alternate;
-}
-img.vert_move {
-  -webkit-animation: mover 1.5s infinite alternate;
-  animation: mover 1.5s infinite alternate;
-}
-@-webkit-keyframes mover {
-  0% {
-    transform: translateY(1%);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-@keyframes mover {
-  0% {
-    transform: translateY(1%);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
+
 /* -------------------------roadmap-section----------------- */
 .bullet_circle {
   padding: 0;
@@ -228,8 +205,6 @@ img.vert_move {
   padding-top: 35px !important;
   padding-bottom: 35px !important;
 }
-<<<<<<< HEAD
-=======
 
 img.vert_move {
   -webkit-animation: mover 1s infinite alternate;
@@ -260,7 +235,6 @@ img.vert_move {
     transform: translateY(-10px);
   }
 }
->>>>>>> 8b484322ef4b38ec62243c8e355176c8b6eae917
 
 @media (max-width: 1600px) {
   .hero_section_height {
