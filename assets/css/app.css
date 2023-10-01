@@ -98,6 +98,58 @@
     transform: rotate(360deg);
   }
 }
+/* ---------------------------BackToTop---------------------------- */
+#scroll {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(#fed710, #ff5001);
+  box-shadow: 0px 2px 5px #ff5001;
+  text-indent: -9999px;
+  border: 2px solid white !important;
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  z-index: 20;
+  -webkit-animation: mover 1s alternate infinite;
+  animation: mover 1s alternate infinite;
+  transition: all 0.2s linear;
+}
+
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+
+#scroll:hover {
+  box-shadow: 0px 5px 10px #ff5001;
+}
+/* -----------scrollbar--------- */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ff5001;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#fed710, #ff5001);
+  border-radius: 10px;
+}
 
 /* -------------------------------------navbar------------------------------------ */
 .bg_hero {
@@ -216,7 +268,7 @@ img.vert_move {
 }
 
 .team_card:hover img {
-  transform: scale(0.97);
+  transform: scale(1.01);
   transition: all 0.2s linear;
 }
 
@@ -284,7 +336,7 @@ img.vert_move {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: grey;
+    background-color: black;
     position: fixed;
     top: 0;
     right: -100%;
@@ -298,6 +350,16 @@ img.vert_move {
 }
 
 @media (max-width: 768px) {
+  #scroll {
+    right: 10px;
+    bottom: 10px;
+    width: 35px;
+    height: 35px; 
+  }
+  .preloader_logo {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 1200px) {
