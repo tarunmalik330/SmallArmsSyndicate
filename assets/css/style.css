@@ -509,6 +509,30 @@
     left: -11%;
     max-width: 137px;
   }
+
+  .orange_circle {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: #ff50014d;
+    bottom: -8%;
+    left: -8%;
+  }
+
+  .red_circle {
+    width: 100px;
+    height: 100px;
+    background: #ff5001;
+    border-radius: 50%;
+  }
+
+  .yellow_circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #fed710;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -530,6 +554,12 @@
 
   .mw_98 {
     max-width: 98px;
+  }
+}
+
+@media (max-width:475px) {
+  .mw_65 {
+    max-width: 65px;
   }
 }
 

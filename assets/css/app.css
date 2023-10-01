@@ -153,14 +153,17 @@ img.vert_move {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;
 }
+
 img.vert_move {
   -webkit-animation: mover 1.5s infinite alternate;
   animation: mover 1.5s infinite alternate;
 }
+
 @-webkit-keyframes mover {
   0% {
     transform: translateY(1%);
   }
+
   100% {
     transform: translateY(-10px);
   }
@@ -169,10 +172,12 @@ img.vert_move {
   0% {
     transform: translateY(1%);
   }
+
   100% {
     transform: translateY(-10px);
   }
 }
+
 /* -------------------------roadmap-section----------------- */
 .bullet_circle {
   padding: 0;
@@ -228,6 +233,7 @@ img.vert_move {
   padding-top: 35px !important;
   padding-bottom: 35px !important;
 }
+
 @media (max-width: 1600px) {
   .hero_section_height {
     height: calc(100vh - 100px) !important;
