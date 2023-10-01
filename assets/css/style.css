@@ -43,7 +43,7 @@
 .Rarity-card {
   padding: 27px 25px;
   border-radius: 17.34px;
-  box-shadow: 0 0 30px 3px #ff560241;
+  box-shadow: 0 0 30px 3px #ff56022c;
 }
 
 /* .Rarity-card:hover {
@@ -452,7 +452,8 @@
   }
 
   .tabbable .nav_tabs .nav-link {
-    margin-bottom: 10px;
+    margin-bottom: 20px !important;
+    display: block !important;
     white-space: nowrap !important;
     overflow: hidden !important;
   }
