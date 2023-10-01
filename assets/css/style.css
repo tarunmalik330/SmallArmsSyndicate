@@ -229,7 +229,8 @@
 
 .img_box_padding {
   padding: 34px 37px;
-  box-shadow: 0 0 30px 3px #ff560241;
+  box-shadow: 0 0 30px 3px #fed6102f;
+  border-radius: 17.34px;
 }
 
 .orange_circle {
@@ -598,6 +599,22 @@ img.vertical_animation {
 @media (max-width:475px) {
   .mw_65 {
     max-width: 65px;
+  }
+
+  .royality-box-1 {
+    bottom: -7%;
+    position: absolute;
+    width: 100%;
+    left: -17%;
+    max-width: 87px;
+  }
+
+  .royality-box-2 {
+    bottom: -5%;
+    position: absolute;
+    width: 100%;
+    right: -14%;
+    max-width: 87px;
   }
 }
 
