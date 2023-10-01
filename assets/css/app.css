@@ -6,6 +6,7 @@
   text-decoration: none !important;
   scroll-behavior: smooth !important;
 }
+
 /* ----------------------------------------color-------------------------------- */
 .text_yellow_orange {
   background: linear-gradient(to bottom, #fed710 0%, #ff5001 50%);
@@ -13,43 +14,53 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text !important;
 }
+
 .text_gradient {
   background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .text_gradient_2 {
   background: linear-gradient(180deg, #fed710 2.08%, #ff5001 7.81%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .text_gradient_3 {
   background: linear-gradient(180deg, #fed710 2.08%, #ff5001 26.04%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 /* ------------------------------------common----------------------------- */
 .lh_143 {
   line-height: 143%;
 }
+
 .lh_150 {
   line-height: 150%;
 }
+
 .lh_116 {
   line-height: 116%;
 }
+
 .lh_174 {
   line-height: 174%;
 }
+
 .lh_180 {
   line-height: 180%;
 }
+
 .lh_normal {
   line-height: normal;
 }
+
 /* ---------------------------preloader----------------------------- */
 #box {
   position: fixed;
@@ -73,6 +84,7 @@
   -webkit-animation: rotate 3s linear infinite;
   animation: rotate 3s linear infinite;
 }
+
 @keyframes rotate {
   0% {
     -webkit-transform: rotate(0deg);
@@ -86,6 +98,7 @@
     transform: rotate(360deg);
   }
 }
+
 /* -------------------------------------navbar------------------------------------ */
 .bg_hero {
   background-image: url(../images/webp/bg_hero.webp);
@@ -93,15 +106,18 @@
   background-size: cover;
   background-position: 50%;
 }
+
 .fix_nav {
   position: fixed;
   top: 0;
   background: black;
   z-index: 4;
 }
+
 .hero_section_height {
   min-height: 100vh !important;
 }
+
 .gap_35 {
   gap: 35px;
 }
@@ -112,6 +128,7 @@
   border-radius: 50px;
   border: transparent;
 }
+
 .under_line::after {
   position: absolute;
   content: "";
@@ -132,23 +149,28 @@
 .under_line {
   position: relative;
 }
+
 /* -------------------------roadmap-section----------------- */
 .bullet_circle {
   padding: 0;
   list-style: none;
 }
+
 .bullet_circle li {
   padding-left: 12px;
   text-indent: -0.7em;
 }
+
 .bullet_circle li::before {
   content: "• ";
   color: white;
   padding-right: 6px;
 }
+
 .max_w_514 {
   max-width: 514px;
 }
+
 /* -------------------------------team----------------------------- */
 .bg_team {
   background-image: url(../images/webp/bg_team.webp);
@@ -156,6 +178,7 @@
   background-size: cover;
   background-position: center;
 }
+
 .team_card {
   border-radius: 18px;
   border: 1.263px solid #ff5001;
@@ -163,6 +186,7 @@
   overflow: hidden;
   cursor: pointer;
 }
+
 .team_card:hover img {
   transform: scale(0.97);
   transition: all 0.2s linear;
@@ -171,34 +195,42 @@
 .team_card:hover {
   box-shadow: 0px 4px 41px 0px rgba(254, 215, 16, 0.5);
 }
+
 .border_radius_18 {
   border-radius: 18px;
   transition: all 0.2s linear;
 }
+
 .slick-track {
   padding-top: 35px !important;
   padding-bottom: 35px !important;
 }
+
 img.vert_move {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;
 }
+
 img.vert_move {
   -webkit-animation: mover 1.5s infinite alternate;
   animation: mover 1.5s infinite alternate;
 }
+
 @-webkit-keyframes mover {
   0% {
     transform: translateY(1%);
   }
+
   100% {
     transform: translateY(-10px);
   }
 }
+
 @keyframes mover {
   0% {
     transform: translateY(1%);
   }
+
   100% {
     transform: translateY(-10px);
   }
@@ -209,6 +241,7 @@ img.vert_move {
     height: calc(100vh - 100px) !important;
   }
 }
+
 @media (max-width: 1200px) {
   label[for="menuIcon"] {
     width: 30px;
@@ -220,6 +253,7 @@ img.vert_move {
     position: relative;
     z-index: 2;
   }
+
   .line1,
   .line2,
   .line3 {
@@ -230,14 +264,17 @@ img.vert_move {
     align-items: center;
     transition: all 0.2s linear;
   }
+
   .cross_icon .line1 {
     transform: rotate(50deg) translate(10px, 12px);
     transition: all 0.2s linear;
   }
+
   .cross_icon .line2 {
     transform: translateX(-50%);
     opacity: 0;
   }
+
   .cross_icon .line3 {
     transform: rotate(-50deg) translateY(-50%);
     transition: all 0.2s linear;
@@ -261,13 +298,15 @@ img.vert_move {
     right: 0;
   }
 }
-@media (max-width: 768px) {
-}
+
+@media (max-width: 768px) {}
+
 @media (min-width: 576px) and (max-width: 1200px) {
   .font_size_24 {
     font-size: 24px !important;
   }
 }
+
 @media (max-width: 575px) {
   .logo_max_w {
     max-width: 55px;
