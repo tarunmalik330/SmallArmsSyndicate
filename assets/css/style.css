@@ -517,7 +517,7 @@ img.vert_move {
 
 .modal-content {
   padding: 30px !important;
-  max-height: 400px;
+  max-height: 400px !important;
 }
 
 .cursur_event {
@@ -868,7 +868,7 @@ img.vertical_animation {
 
   .modal-content {
     padding: 20px !important;
-    max-height: 360px;
+    max-height: 360px !important;
   }
 }
 
