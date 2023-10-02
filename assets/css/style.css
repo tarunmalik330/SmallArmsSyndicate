@@ -554,12 +554,20 @@ img.vert_move {
   height: 334px;
   flex-shrink: 0;
   border-radius: 334px;
-  background: #781d00;
+  background: #6b1c04;
   filter: blur(250px);
 }
 
 .linearCircle1 {
   top: 26% !important;
+}
+
+.linearCircle2 {
+  top: 31% !important;
+}
+
+.linearCircle3 {
+  bottom: -14%;
 }
 
 img.vertical_animation {
