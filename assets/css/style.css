@@ -137,10 +137,6 @@
   width: 100%;
 }
 
-.under_line {
-  position: relative;
-}
-
 img.vert_move {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;
