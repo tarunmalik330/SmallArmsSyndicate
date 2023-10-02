@@ -471,12 +471,12 @@ img.vert_move {
   height: 500px !important;
 }
 
-.right-3 {
-  right: -3%;
+.right-1 {
+  right: -1%;
 }
 
-.top-6 {
-  top: -6%;
+.top-3 {
+  top: -3%;
 }
 
 .btn-cross {
@@ -516,8 +516,9 @@ img.vert_move {
 }
 
 .modal-content {
-  padding: 30px !important;
+  padding: 15px !important;
   max-height: 400px !important;
+  max-height: 530px !important;
 }
 
 .cursur_event {
