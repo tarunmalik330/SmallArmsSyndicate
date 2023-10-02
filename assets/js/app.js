@@ -15,14 +15,14 @@ $(document).ready(function () {
 
 // -----------------------------preloader---------------------------
 setTimeout(() => {
-  const box = document.getElementById("box");
+  const box = document.getElementById("preloader");
 
-  box.style.display = "none";
+  preloader.style.display = "none";
 
   window.scrollTo(0, 0);
 
   document.body.classList.remove("overflow-hidden");
-}, 2000);
+}, 4000);
 
 // ----------------------------navbar----------------------------
 let label = document.querySelector("#label")
