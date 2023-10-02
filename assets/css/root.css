@@ -166,7 +166,7 @@
     --fs-lg: 27px;
     --fs-2lg: 31px;
     --fs-3lg: 35px;
-      --fs-xl: 29px;
+    --fs-xl: 29px;
     --fs-xxl: 62px;
   }
 }
@@ -202,6 +202,7 @@
     --fs-xxl: 39px;
   }
 }
+
 @media (min-width:375px) and (max-width:425px) {
   :root {
     --fs-sm: 10px;
@@ -217,6 +218,7 @@
     --fs-xxl: 30px;
   }
 }
+
 @media (min-width:300px) and (max-width:375px) {
   :root {
     --fs-sm: 10px;
