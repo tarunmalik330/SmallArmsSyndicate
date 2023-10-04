@@ -34,9 +34,16 @@ function showNav() {
   document.body.classList.toggle('overflow-hidden')
   document.getElementById("label").classList.toggle("cross_icon");
 }
+function remove() {
+  document.body.classList.remove('overflow-hidden')
+  navbox.classList.remove("right-0");
+  document.getElementById("label").classList.toggle("cross_icon");
+}
 // -----------------------team-seaction------------------
 $('.team_slider').slick({
   dots: false,
+  autoplay: true,
+  autoplaySpeed: 1000,
   arrows: false,
   infinite: true,
   speed: 300,
@@ -46,7 +53,7 @@ $('.team_slider').slick({
     {
       breakpoint: 992,
       settings: {
-        slidesToShow: 2.4,
+        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
       }
@@ -62,6 +69,7 @@ $('.team_slider').slick({
     {
       breakpoint: 480,
       settings: {
+        centerMode: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1

@@ -108,7 +108,7 @@
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   border-radius: 60px;
-  z-index: 20;
+  z-index: 4;
   -webkit-animation: mover 1s alternate infinite;
   animation: mover 1s alternate infinite;
   transition: all 0.2s linear;
@@ -182,14 +182,24 @@
   width: 100%;
 }
 
-img.vert_move {
-  -webkit-animation: mover 1s infinite alternate;
-  animation: mover 1s infinite alternate;
+.vert_move1 {
+  -webkit-animation: mover 1.2s infinite alternate;
+  animation: mover 1.2s infinite alternate;
 }
 
-img.vert_move {
-  -webkit-animation: mover 1.5s infinite alternate;
-  animation: mover 1.5s infinite alternate;
+.vert_move2 {
+  -webkit-animation: mover 1.4s infinite alternate;
+  animation: mover 1.4s infinite alternate;
+}
+
+.vert_move3 {
+  -webkit-animation: mover 1.2s infinite alternate;
+  animation: mover 1.2s infinite alternate;
+}
+
+.vert_move4 {
+  -webkit-animation: mover 1.4s infinite alternate;
+  animation: mover 1.4s infinite alternate;
 }
 
 @-webkit-keyframes mover {
@@ -442,6 +452,10 @@ img.vert_move {
   width: 100%;
   right: -15%;
   max-width: 347px;
+}
+
+.mb_10 {
+  margin-bottom: -10px;
 }
 
 /* --------------------------Syndicate Game Section---------------------- */
@@ -807,7 +821,7 @@ img.vertical_animation {
     justify-content: space-between;
     cursor: pointer;
     position: relative;
-    z-index: 2;
+    z-index: 8;
   }
 
   .line1,
@@ -847,7 +861,7 @@ img.vertical_animation {
     top: 0;
     right: -100%;
     transition: all 300ms linear;
-    z-index: 1;
+    z-index: 7;
   }
 
   .right-0 {
@@ -886,6 +900,10 @@ img.vertical_animation {
 
   .button {
     padding: 8px 20px;
+  }
+
+  .hero_section_height {
+    min-height: 70vh !important;
   }
 }
 
@@ -944,6 +962,10 @@ img.vertical_animation {
 
   .pt_91 {
     padding-top: 91px;
+  }
+
+  .mw_941 {
+    max-width: 941px !important;
   }
 }
 
@@ -1074,18 +1096,23 @@ img.vertical_animation {
     border-radius: 50% !important;
     background: #fed710 !important;
   }
+
+  .hero_section_height {
+    min-height: 60vh !important;
+  }
 }
 
 @media (min-width: 375px) {
   .royalty_img {
     min-width: 77px;
   }
+
+  .modal {
+    --bs-modal-margin: 11.75rem !important;
+  }
 }
 
 @media (max-width: 1600px) {
-  .hero_section_height {
-    height: calc(100vh - 100px) !important;
-  }
 
   .royality-box-1 {
     bottom: -15%;
